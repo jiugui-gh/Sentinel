@@ -41,6 +41,7 @@ public class FlowRuleNacosPublisher implements DynamicRulePublisher<List<FlowRul
             return;
         }
         String dataId = new StringBuilder(appName).append(NacosConstants.DATA_ID_POSTFIX).toString();
+        System.out.println("dataId:" + dataId);
         configService.publishConfig(dataId, nacosPropertiesConfiguration.getGroupId(), converter.convert(rules));
     }
 }
