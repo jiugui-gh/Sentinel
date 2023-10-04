@@ -15,7 +15,7 @@
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <jetcd.version>0.3.0</jetcd.version>
+        <jetcd.version>0.5.4</jetcd.version>
     </properties>
 
     <dependencies>
