@@ -12,7 +12,7 @@
     <artifactId>sentinel-sofa-rpc-adapter</artifactId>
 
     <properties>
-        <sofa-rpc-all.version>5.6.4</sofa-rpc-all.version>
+        <sofa-rpc-all.version>5.13.2</sofa-rpc-all.version>
     </properties>
 
     <dependencies>
